@@ -1,0 +1,43 @@
+.legend-item-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 200px;
+    height: 100%;
+}
+.legend-item-container > * {
+    /* border: 1px solid black; */
+}
+
+.legend-title {
+    padding: 0.25rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.legend-item {
+    height: 2rem;
+    padding: 0.25rem;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.legend-item-img {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend-item-img > img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.legend-item-caption {
+    flex: 1;
+    font-size: 1.25rem;
+}
